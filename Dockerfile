@@ -1,6 +1,6 @@
 FROM node:alpine 
 
-WORKDIR /usr/app
+WORKDIR /dockernode
 
 COPY package*.json ./
 RUN npm install
